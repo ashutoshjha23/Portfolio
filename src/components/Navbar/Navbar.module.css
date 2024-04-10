@@ -10,21 +10,6 @@
   margin: 0 10%;
 }
 
-.title {
-  transform: rotate(-30deg);
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #fff;
-  transition: transform 0.3s ease-in-out;
-}
-
-.title:hover {
-  transform: scale(1.1) rotate(-30deg);
-}
-
-
-
 .menuBtn {
   display: none;
   animation: pop 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
