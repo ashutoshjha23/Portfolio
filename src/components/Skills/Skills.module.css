@@ -1,0 +1,420 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 200px;
+}
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease-in-out;
+}
+
+.title:hover {
+  transform: translateX(10px); /* Adjust the value as needed */
+}
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo {
+  font-size: 30px;
+  width: 80vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgb(239, 8, 8) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  animation: blink 3s infinite;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.compo:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo1 {
+  font-size: 30px;
+  width: 90vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgb(255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo1:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo2 {
+  font-size: 30px;
+  width: 75vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    #07ddfe 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo2:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo3 {
+  font-size: 30px;
+  width: 70vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgb(0, 255, 26) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo3:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo4 {
+  font-size: 30px;
+  width: 80vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgb(242, 5, 255) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo4:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo5 {
+  font-size: 30px;
+  width: 80vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    #020ffd 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo5:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+@keyframes blink {
+  0% {
+    background-size: 0% 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
+
+.compo6 {
+  font-size: 30px;
+  width: 95vh;
+  height: 70px;
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgb(251, 7, 68) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: blink 3s infinite;
+}
+
+.compo6:hover {
+  background-size: 100% 100%;
+  animation: none; /* Disable animation on hover */
+}
+
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.p {
+  font-size: 10px;
+  width: 100px;
+}
+
+.texx {
+  font-size: 10px;
+  align-items: end;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: end;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: transparent;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+  typing 3s steps(4),
+  cursor .5s step-end infinite alternate;
+}
+
+
+@keyframes cursor{
+  50%{ border-color: transparent}
+}
+
+@keyframes typing {
+  from { width: 0}
+  
+}
+
+@media screen and (max-width: 830px) {
+
+  .container {
+    width: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .compo, .compo1, .compo2, .compo3, .compo4, .compo5, .compo6 {
+    width: 90vw; /* Adjust width for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
+    margin-left: 5%; /* Adjust margin for smaller screens */
+    margin-right: 5%; /* Adjust margin for smaller screens */
+  }
+
+  .title {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+
+  .content {
+    flex-direction: column; /* Stack content vertically for smaller screens */
+  }
+
+  .p, .texx {
+    font-size: 8px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .compo, .compo1, .compo2, .compo3, .compo4, .compo5, .compo6 {
+    width: 80vw; /* Further adjust width for even smaller screens */
+    font-size: 15px; /* Further adjust font size for even smaller screens */
+    margin-left: 3%; /* Further adjust margin for even smaller screens */
+    margin-right: 3%; /* Further adjust margin for even smaller screens */
+  }
+
+  .title {
+    font-size: 20px; /* Further adjust font size for even smaller screens */
+  }
+
+  .p, .texx {
+    font-size: 6px; /* Further adjust font size for even smaller screens */
+  }
+}

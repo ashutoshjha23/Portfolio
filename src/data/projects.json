@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Location Tracker",
+    "imageSrc": "projects/location.jpeg",
+    "description": "A simple location tracker using HTML, CSS, and JavaScript that displays the user's current location on a map.",
+    "demo": "https://locationtrackerashu.netlify.app/",
+    "source": "https://github.com/ashutoshjha23/Location-Tracker"
+  },
+  {
+    "title": "Weather Web",
+    "imageSrc": "projects/weather.jpeg",
+    "description": "A simple weather website displaying current weather information of the user using HTML, CSS, and JavaScript.",
+    "demo": "https://weatherwebashu.netlify.app/",
+    "source": "https://github.com/ashutoshjha23/Weather-Website"
+  },
+  {
+    "title": "Beliver",
+    "imageSrc": "projects/game.jpeg",
+    "description": "A classic game implemented with HTML, CSS, and JavaScript for some simple and entertaining fun!",
+    "demo": "nah man",
+    "source": "https://github.com/ashutoshjha23/Beliver"
+  }
+]
